@@ -1,6 +1,6 @@
 'use strict ';
 
-const ENTERED_NUM = (prompt('Введіть цифру від 0 до 7') || '').trim();
+const ENTERED_NUM = String(prompt('Введіть цифру від 0 до 7')).trim();
 switch (ENTERED_NUM) {
   case '0':
     console.log('Рівень прав: ---');
